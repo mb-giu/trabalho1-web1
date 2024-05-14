@@ -1,0 +1,38 @@
+.lhama{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .texto{
+    color: #917864;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  
+  .navbar{
+    background-color: #917864;
+  }
+
+  .navbar-text{
+    padding-top: 1px;
+  }
+  
+ .btn{
+    margin-left: 40px;
+    font-weight: bolder;
+ }
+
+  .btn:hover{
+    background-color: brown;
+    color: white;
+  }
+
+  .titulos{
+    color: #917864;
+    font-weight: bolder;
+  }
+
+  .class{
+    
+  }
