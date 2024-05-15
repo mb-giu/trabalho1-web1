@@ -1,38 +1,72 @@
-.lhama{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .texto{
-    color: #917864;
-    font-weight: bolder;
-    font-size: 40px;
-  }
-  
-  .navbar{
-    background-color: #917864;
-  }
+.navbar.navbar-expand-lg {
+           background-color: #EECB75;
+           position: relative;
+       }
 
-  .navbar-text{
-    padding-top: 1px;
+ .navbar.navbar-expand-lg .navbar-nav .nav-link {
+            color: black;
+            font-weight: bold;
+            padding-right: 30%;
+ }
+
+
+.itensnav {
+            display: flex;
+            align-items: center;
+            padding-left: 50px;
+            overflow: hidden;
+ }
+
+.anda {
+            bottom: 15%;
+            position: absolute;
+            animation: run 8s linear infinite;
+
+ }
+
+@keyframes run {
+  0% {
+    left: calc(100% - 70px);
+   }
+  50% {
+       left: 90%;
   }
-  
+  100% {
+         left: calc(100% - 50px);
+         }
+}
+
+
  .btn{
     margin-left: 40px;
     font-weight: bolder;
+    background-color: #EECB75;
  }
 
   .btn:hover{
-    background-color: brown;
+    background-color: #917864;
     color: white;
   }
 
-  .titulos{
+
+.titulos{
     color: #917864;
     font-weight: bolder;
+    padding: 20px;
   }
 
-  .class{
-    
+.descricao{
+    background-color: lightgray;
+    width: 40%;
+    margin-left: 80px;
+    padding: 3%;
   }
+
+.page-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+.img2{
+    margin-right: 200px;
+}
