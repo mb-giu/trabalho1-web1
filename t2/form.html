@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="form.css">
+  <title>Formulario</title>
+</head>
+<body>
+    <div class="centraliza">
+        <h1>Cadastro do agricultor</h1>
+    </div>
+    <div class="container titular">
+        <h2>Titular / Produtor</h2>
+        <form action="">
+            <label> Nome: </label>
+            <input type="text" id="nome">
+            <div class="radial">
+                <label>Sexo:</label>
+                <input type="radio" id="feminino" name="sexo" value="f">
+                <label for="feminino">Feminino</label><br>
+                <input type="radio" id="masculino" name="sexo" value="m">
+                <label for="masculino">Masculino</label><br>
+            </div>
+            <div class="cpf">
+                <label>CPF: </label>
+                <input type="text" name="cpf" placeholder="111.111.111-11">
+            </div>
+            <label> Nome da mãe: </label>
+            <input type="text" id="nomemae">
+            <label> Apelido: </label>
+            <input type="text" id="apelido">
+            <label> Data de nascimento: </label>
+            <input type="date" id="datanasc">
+            <label> RG: </label>
+            <input type="text" id="rg">
+            <label> UF do Órgão Emissor: </label>
+            <input type="text" id="ufoe">
+            <label> Município Nasc.: </label>
+            <input type="text" id="munasc">
+            <label> Escolaridade: </label>
+            <input type="text" id="escolaridade">
+        </form>
+    </div>  
+
+    <div class="container conjuge">
+        <h2>Conjuge do titular</h2>
+        <form action="">
+            <label> Nome: </label>
+            <input type="text" id="cnome">
+            <div class="radial">
+                <label>Sexo:</label>
+                <input type="radio" id="cfeminino" name="sexo" value="f">
+                <label for="feminino">Feminino</label><br>
+                <input type="radio" id="cmasculino" name="sexo" value="m">
+                <label for="masculino">Masculino</label><br>
+            </div>
+            <div class="cpf">
+                <label>CPF: </label>
+                <input type="text" name="ccpf" placeholder="111.111.111-11">
+            </div>
+            <label> Nome da mãe: </label>
+            <input type="text" id="cnomemae">
+            <label> Apelido: </label>
+            <input type="text" id="capelido">
+            <label> Data de nascimento: </label>
+            <input type="date" id="cdatanasc">
+            <label> RG: </label>
+            <input type="text" id="crg">
+            <label> UF do Órgão Emissor: </label>
+            <input type="text" id="cufoe">
+            <label> Município Nasc.: </label>
+            <input type="text" id="cmunasc">
+            <label> Escolaridade: </label>
+            <input type="text" id="cescolaridade">
+        </form>
+    </div>  
+    <div class="centraliza">
+        <input class="botao" type="submit" value="Enviar">
+    </div>
+</body>
+</html>
